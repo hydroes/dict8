@@ -1,6 +1,6 @@
 {
-  "name": "koa2-boilerplate",
-  "version": "1.0.0",
+  "name": "dict8",
+  "version": "0.0.1",
   "description": "",
   "main": "start.js",
   "scripts": {
@@ -10,14 +10,9 @@
     "report": "mocha --compilers js:babel-core/register --require babel-polyfill --reporter mochawesome"
   },
   "keywords": [
-    "koa2-boilerplate",
-    "koa2 export excel",
-    "koa2 login with passport.js",
-    "koa2 cors rest request",
-    "koa2 with redux or vue",
-    "koa2 with docker"
+    "narrate"
   ],
-  "author": "SRK.Lyu <superalsrk@gmail.com> (http://stackbox.org)",
+  "author": "Brian Gouws",
   "license": "MIT",
   "dependencies": {
     "amqplib": "^0.4.2",
