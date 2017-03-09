@@ -3,7 +3,7 @@ koa2-boilerplate
 
 ![MIT](https://img.shields.io/npm/l/express.svg) ![node version](https://img.shields.io/badge/node-v6.3.0-green.svg) [![docker build](https://img.shields.io/docker/automated/superalsrk/koa2-boilerplate.svg)](https://hub.docker.com/r/superalsrk/koa2-boilerplate/builds/) [![](https://images.microbadger.com/badges/image/superalsrk/koa2-boilerplate.svg)](https://microbadger.com/images/superalsrk/koa2-boilerplate "Get your own image badge on microbadger.com")
 
-This boilerplate shows ways to 
+This boilerplate shows ways to
 
 + Use mysql in Koa2
 + CORS Ajax request
@@ -21,7 +21,7 @@ This boilerplate shows ways to
 ### Usage
 
 ```bash
-$ npm install 
+$ npm install
 
 # Start application
 $ npm run dev
@@ -36,8 +36,8 @@ $ npm run report
 You can also use docker to start this boilerplate
 
 ```
-$ docker pull superalsrk/koa2-boilerplate
-$ docker run -d -p 5000:5000 superalsrk/koa2-boilerplate
+$ docker build -t hydroes/dict8 .
+$ docker run -d -p 5000:5000 hydroes/dict8
 ```
 
 ### Develop & Deploy
