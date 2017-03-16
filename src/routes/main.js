@@ -16,5 +16,4 @@ router.get('/app', async (ctx, next) => {
     }
 })
 
-
 export default router;

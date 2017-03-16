@@ -12,9 +12,9 @@ router.get('/export', async (ctx, next) => {
         type:'string',
         width: 145
     }]
-    
+
     conf.rows = [['value01'], ['value02'], ['value03']] 
-    
+
     ctx.type = 'application/vnd.openxmlformats'
     ctx.attachment( "Report.xlsx")
     ctx.body = new Buffer(NodeExcel.execute(conf), 'binary')

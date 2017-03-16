@@ -8,6 +8,7 @@ import RouterMain from './main';
 import RouterAuth from './auth';
 import RouterOpen from './open';
 import RouterMock from './mock';
+import RouterSound from './sound';
 
 const router = new Router();
 
@@ -24,6 +25,7 @@ router.use('/api',  RouterMain.routes(), RouterMain.allowedMethods())
 router.use('/auth', RouterAuth.routes(), RouterAuth.allowedMethods())
 router.use('/open', RouterOpen.routes(), RouterOpen.allowedMethods())
 router.use('/mock', RouterMock.routes(), RouterMock.allowedMethods())
+router.use('/sound', RouterSound.routes(), RouterSound.allowedMethods())
 
 router.get('*', async (ctx, next) => {
     ctx.body = { status : 404 }
