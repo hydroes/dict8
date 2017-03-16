@@ -1,0 +1,21 @@
+{
+  "name": "mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "browserify main.js -o libs.js",
+    "watch": "watchify main.js -o libs.js -v"
+  },
+  "keywords": [],
+  "author": "Brian Gouws <briangouws@hotmail.com> (lifeofbrian.info)",
+  "license": "ISC",
+  "dependencies": {
+    "microm": "^0.2.4"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "watchify": "^3.9.0"
+  }
+}
