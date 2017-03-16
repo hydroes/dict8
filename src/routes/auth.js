@@ -8,9 +8,8 @@ const router = new Router();
 router.get('/login', async (ctx, next) => {
     ctx.body = {
         "status" : "login page"
-    }   
+    }
 })
-
 
 router.post('/login', async (ctx, next) => {
     let middleware = passport.authenticate('local', async(user, info) => {

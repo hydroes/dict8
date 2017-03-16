@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/node,eclipse,intellij
 
+
+src/public/assets/main.js
+
 ### Node ###
 # Logs
 logs
@@ -148,7 +151,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 vendor.bundle.js
 
